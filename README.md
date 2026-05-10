@@ -1,99 +1,91 @@
-# Study Time vs Exam Performance — Data Analysis
+# Student Performance Analysis — Study Time vs Exam Performance
 
-## Overview
-
-This project explores the relationship between study time and academic performance using a simple data analysis pipeline.
-
-The goal is to demonstrate how even small datasets can reveal meaningful patterns through visualization and interpretation.
+## Overview  
+This project analyzes how study time influences academic performance, demonstrating a complete data analysis workflow: from data structuring to insight generation.
 
 ---
 
-## Research Question
+## Problem Statement  
+Improving academic performance requires understanding key influencing factors.  
+This project focuses on evaluating the impact of study time on exam results.
 
+---
+
+## Research Question  
 How does the number of hours studied affect exam performance?
 
 ---
 
-## Dataset
+## Dataset  
 
-A synthetic dataset was created to simulate student behavior:
+- Synthetic dataset simulating student behavior  
+- Variables:  
+  - hours_studied — number of hours spent studying  
+  - exam_score — corresponding exam result  
 
-* **hours_studied**: number of hours spent studying
-* **exam_score**: corresponding exam result
-
-The dataset reflects a realistic positive correlation between effort and performance.
-
----
-
-## Methodology
-
-### Data Preparation
-
-* Constructed dataset manually using Python
-* Stored data in a Pandas DataFrame
-
-### Visualization
-
-* Used Matplotlib to create a scatter plot
-* X-axis: study hours
-* Y-axis: exam score
+The dataset reflects a realistic positive relationship between effort and performance.
 
 ---
 
-## Results
+## Methodology  
 
-The scatter plot shows a clear **positive correlation**:
+### Data Preparation  
+- Designed and structured dataset using Python  
+- Stored data in a Pandas DataFrame  
 
-* As study time increases, exam scores also increase
-* The relationship appears approximately linear
-
----
-
-## Key Insights
-
-* Increased study time generally leads to better performance
-* Even a simple dataset can demonstrate strong trends
-* Visualization is an effective tool for understanding relationships in data
+### Data Analysis & Visualization  
+- Visualized data using Matplotlib  
+- Created a scatter plot to identify relationships  
+- Interpreted trends and patterns  
 
 ---
 
-## Limitations
+## Results  
 
-* Dataset is synthetic (not real-world data)
-* Small sample size (only 8 observations)
-* Does not account for other factors:
-
-  * sleep
-  * stress
-  * learning methods
+- Identified a clear positive correlation between study time and exam scores  
+- Observed a near-linear relationship, indicating consistent performance improvement with increased study time  
 
 ---
 
-## Future Work
+## Key Insights  
 
-* Collect real student data
-* Apply regression models (Linear Regression)
-* Add more variables (sleep, focus, environment)
-* Perform statistical testing
-
----
-
-## Tech Stack
-
-* Python
-* Pandas
-* Matplotlib
+- Study time is a strong predictor of academic performance  
+- Even simple datasets can reveal meaningful patterns  
+- Data visualization enhances interpretation and understanding  
 
 ---
 
-## Conclusion
+## Limitations  
 
-This project demonstrates a fundamental concept in data science: identifying relationships between variables using visualization.
-
-While simple, it reflects the core workflow of real-world data analysis and provides a foundation for more advanced modeling.
+- Synthetic dataset (not real-world data)  
+- Small sample size  
+- Does not include other influencing factors such as sleep, stress, or study methods  
 
 ---
 
-## Author
+## Future Improvements  
 
-Student project focused on data analysis, visualization, and foundational machine learning concepts.
+- Apply machine learning models (e.g., Linear Regression)  
+- Collect real-world data  
+- Include additional variables for deeper analysis  
+- Perform statistical testing  
+
+---
+
+## Tech Stack  
+
+- Python  
+- Pandas  
+- Matplotlib  
+
+---
+
+## Project Value  
+
+This project demonstrates the ability to structure data, analyze relationships, and extract insights — core skills in data science and machine learning.
+
+---
+
+## Author  
+
+Data Science & Machine Learning student focused on solving real-world problems through data and analytical thinking
